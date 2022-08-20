@@ -1,0 +1,30 @@
+.App {
+  display: block;
+  width: 100%;
+}
+
+.Main-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+a:visited {
+  color: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  display: inline-block;
+  list-style: none;
+  padding: 15px;
+}
+
+li:hover {
+  background-color: aqua;
+  transition: 0.3s;
+}
